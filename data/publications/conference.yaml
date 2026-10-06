@@ -1,0 +1,337 @@
+# 査読付き国際会議論文（英語ページの Papers / Journals にも出る）
+# 新しいものを上に追加。date は並べ替えに使う（YYYY-MM）。書き方は README.md を参照。
+
+- date: "2026-12"
+  authors: Naito Yoshihara, Takehiro Yamamoto and Yoshiyuki Shoji
+  title: Discovering Minor Product Attributes from Reviews via Attribute-Aware Encoding and Minor-Utility Cluster Ranking
+  venue: Proceedings of the 2026 10th International Conference on Natural Language Processing and Information Retrieval (NLPIR 2026), to appear, December 2026
+- date: "2026-12"
+  authors: Yasuyuki Wada, Takehiro Yamamoto and Yoshiyuki Shoji
+  title: Agent-Based Interventions to Support Proxy Information Seeking for Group Decision-Making
+  venue: Proceedings of the 28th International Conference on Information Integration and Web Intelligence (iiWAS2026), to appear, December 2026.
+- date: "2026-12"
+  authors: Ryota Mibayashi, Toru Urakawa, Dai Takanashi, Kanata Yamagishi, Tomoya Morohoshi, Ryuho Sekikawa, Yasuhiko Nishimura, Yuta Takeuchi, Hideaki Tamori, Takehiro Yamamoto
+  title: Supporting Perspective Acquisition and Opinion Formation on Societal Issues through AI-Generated Japanese Rap Battle Debates
+  venue: Proceedings of the 2026 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE 2026), to appear, December 2026.
+- date: "2026-12"
+  authors: Huu-Long Pham, Masataka Kubouchi, Takuma Nishimoto, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Retrieving Instance Segmentation Models using Local Image Features via Transformer Encoder
+  venue: Proceedings of the 28th International Conference on Asia-Pacific Digital Libraries (ICADL 2026), to appear, December 2026.
+- date: "2026-12"
+  authors: Sohei Taniguchi, Taiga Sasaki, Takehiro Yamamoto, Hiroaki Ohshima and Sumio Fujita
+  title: Mitigating Catastrophic Forgetting in Domain-Specific Ad-hoc Retrieval via Model Merging
+  venue: Proceedings of the 4th International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP 2026), to appear, December 2026.
+- date: "2026-12"
+  authors: Taiyo Ikemoto and Takehiro Yamamoto
+  title: Analyzing the Effects of Query Type and Ranking Methods on the Stance Distribution of Search Results on Controversial Topics
+  venue: Proceedings of the 4th International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP 2026), to appear, December 2026.
+- date: "2026-10"
+  authors: Momo Kumano, Ken Tobioka and Takehiro Yamamoto
+  title: Impact of Response Length on Nugget-Level Stance Distribution in Conversational Search
+  venue: Proceedings of the 13th International Conference on Behavioural and Social Computing (BESC 2026), to appear, October 2026.
+- date: "2026-10"
+  authors: Rui Yonemura, Kanako Nakai and Takehiro Yamamoto
+  title: Correction and Supplementary Text Generation for Output-Based Learning Using Speaker Claim Extraction and RAG
+  venue: Proceedings of the 13th International Conference on Behavioural and Social Computing (BESC 2026), to appear, October 2026.
+- date: "2026-07"
+  authors: Taiga Sasaki, Takehiro Yamamoto, Hiroaki Ohshima and Sumio Fujita
+  title: Model Merging as an Alternative to Fine-Tuning on Combined Data for a Multi-Domain Dense Retriever
+  venue: Proceedings of the 2026 ACM Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR 2026), pp.349-355, July 2026.
+- date: "2025-12"
+  authors: Marino Fujii, Takehiro Yamamoto and Takayuki Yumoto
+  title: 'Supplementing Product Reviews: Retrieving Opinions from Products with Similar Attributes'
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.15-30, December 2025.
+- date: "2025-12"
+  authors: Kanako Nakai, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Generating Comparative Table by LLM-based Product Review Summarization
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.31-46, December 2025.
+- date: "2025-12"
+  authors: Naito Yoshihara, Takehiro Yamamoto and Yoshiyuki Shoji
+  title: Expanding Aspect Queries into Review Sentence Fragments for Product Comparison via LLM-Generated Synthetic Reviews
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.47-62, December 2025.
+- date: "2025-12"
+  authors: Yilin Wang, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Generating Interactive Japanese Puns Based on Phoneme Similarity
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.79-94, December 2025.
+- date: "2025-12"
+  authors: Ryota Mibayashi, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Japanese Rhyme Generation Based on Mora Similarity and Generation Probability
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.95-111, December 2025.
+  award: Best Paper Award
+- date: "2025-12"
+  authors: Tomoya Fukui, Takehiro Yamamoto and Takayuki Yumoto
+  title: Retrieving More Concrete Product Reviews by Query Rewriting with Retrieved Review Concretization
+  venue: Proceedings of the 27th International Conference on Information Integration and Web Intelligence (iiWAS 2025), pp.180-186, December 2025.
+- date: "2025-12"
+  authors: Akito Nakano, Shio Takidaira, Tsukasa Sawaura, Yoshiyuki Shoji, Takehiro Yamamoto, Yusuke Yamamoto, Hiroaki Ohshima, Kenro Aihara, Noriko Kando
+  title: 'Question-Based Viewing with LLM-Powered Personified Characters: A Role-Playing Dialogue System for Perspective-Taking in Museums'
+  venue: Proceedings of the 27th International Conference on Asia-Pacific Digital Libraries (ICADL 2025), pp.87-96, December 2025.
+- date: "2025-11"
+  authors: Taiga Sasaki, Takehiro Yamamoto, Hiroaki Ohshima and Sumio Fujita
+  title: Effect of Model Merging in Domain-Specific Ad-hoc Retrieval
+  venue: Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025), pp. 5208-5212, November 2025.
+- date: "2025-08"
+  authors: Ken Tobioka, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Effects of Response Length on User Search Experience in Spoken Conversational Search
+  venue: Proceedings of the 27th International Conference on Big Data Analytics and Knowledge Discovery (DaWak 2025), pp.231-236, August 2025.
+- date: "2024-12"
+  authors: Ken Tobioka, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Timing of Aspect Suggestion to Encourage Diverse Information Acquisition in Spoken Conversational Search
+  venue: Proceedings of the 2nd International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP 2024), pp.145-153, December 2024.
+  award: Best paper shortlisted nominees
+- date: "2024-12"
+  authors: Ryota Mibayashi, Toru Urakawa, Dai Takanashi, Kanata Yamagishi, Tomoya Morohoshi, Ryuho Sekikawa, Yasuhiko Nishimura, Yuta Takeuchi, Mina Shibasaki, Hideaki Tamori, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Debate Generation System in Japanese Rap Battle Format
+  venue: SIGGRAPH Asia 2024 Real Time Live\!, No. 3, pp. 1-2, December 2024.
+  award: Best of Show Award
+- date: "2024-03"
+  authors: Yuna Morita, Takehiro Yamamoto, Yoshiyuki Shoji, Hiroaki Ohshima, Yusuke Yamamoto, Noriko Kando and Kenro Aihara
+  title: Impressing museum visitors by having them answer questions toward the realization of an interactive viewing support system
+  venue: Proceedings of the 12th IEEE International Conference on Information and Education Technology (IEEE ICIET 2024), March 2024.
+- date: "2024-03"
+  authors: Kaisei Nishimoto, Kenro Aihara, Noriko Kando, Yoshiyuki Shoji, Yusuke Yamamoto, Takehiro Yamamoto and Hiroaki Ohshima
+  title: A Gamification System for Acquiring Appreciation Perspectives in Museum
+  venue: Proceedings of the 12th IEEE International Conference on Information and Education Technology (IEEE ICIET 2024), March 2024.
+- date: "2024-03"
+  authors: Yuya Tsuda, Takehiro Yamamoto, Hiroaki Ohshima
+  title: Mixed Reality Interaction for Product Search Using Whiteboard
+  venue: Proceedings of the 2024 ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2024), pp. 396–400, March 2024.
+- date: "2024-02"
+  authors: Huu-Long Pham, Ryota Mibayashi, Takehiro Yamamoto, Makoto P. Kato, Yusuke Yamamoto, Yoshiyuki Shoji and Hiroaki Ohshima
+  title: Inference-based No-Learning Approach on Pre-trained BERT Model Retrieval
+  venue: Proceedings of the 2024 IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), pp. 234-241, February 2024.
+- date: "2024-02"
+  authors: Shen Chenfu, Yoshiyuki Shoji, Takehiro Yamamoto, Katsumi Tanaka and Martin J. Dürst
+  title: Generating Experiential Descriptions and Estimating Evidence Using Generative Language Model and User Products Reviews
+  venue: Proceedings of the 2024 IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), pp. 254-261, February 2024.
+- date: "2023-12"
+  authors: Jinsong Yu, Shio Takidaira, Tsukasa Sawaura, Yoshiyuki Shoji, Takehiro Yamamoto, Yusuke Yamamoto, Hiroaki Ohshima, Kenro Aihara and Noriko Kando
+  title: Personalized Treasure Hunt Game for Proactive Museum Appreciation by Analyzing Guide App Operation Log
+  venue: Proceedings of the 25th International Conference on Asia-Pacific Digital Libraries (ICADL 2023), pp. 30-45, December 2023.
+- date: "2023-12"
+  authors: Yuka Kawada, Takehiro Yamamoto, Hiroaki Ohshima, Yuki Yanagida, Makoto P. Kato and Sumio Fujita
+  title: Analyzing Web Search Queries of Before and After Purchase on e-Commerce Site
+  venue: Proceedings of the 25th International Conference on Asia-Pacific Digital Libraries (ICADL 2023), pp. 181-187, December 2023.
+- date: "2023-12"
+  authors: Ryo Hagiwara and Takehiro Yamamoto
+  title: Web Page Evaluation and Opinion Formation on Controversial Search Topics
+  venue: Proceedings of the 25th International Conference on Asia-Pacific Digital Libraries (ICADL 2023), pp. 188-203, December 2023.
+  award: Best Student Paper Award
+- date: "2023-12"
+  authors: Tomohiro Ishii, Yoshiyuki Shoji, Takehiro Yamamoto, Hiroaki Ohshima, Sumio Fujita and Martin J. Dürst
+  title: Generating Fine-Grained Aspect Names from Movie Review Sentences Using Generative Language Model
+  venue: Proceedings of the 25th International Conference on Information Integration and Web Intelligence (iiWAS 2023), pp. 217-232, December 2023.
+- date: "2023-12"
+  authors: Tsukasa Hirano, Yoshiyuki Shoji, Takehiro Yamamoto and Martin J. Dürst
+  title: 'Buy Eye-Mask Instead of Alarm Clock\!: Graph-Based Approach to Identify Functionally Equal Alternative Products'
+  venue: Proceedings of the 25th International Conference on Information Integration and Web Intelligence (iiWAS 2023), pp. 265-279, December 2023.
+- date: "2023-11"
+  authors: Ryota Mibayashi, Takehiro Yamamoto, Kosetsu Tsukuda, Kento Watanabe, Tomoyasu Nakano, Masataka Goto and Hiroaki Ohshima
+  title: Verse Generation by Reverse Generation Considering Rhyme and Answer in Japanese Rap Battles
+  venue: Proceedings of the 16th International Symposium on Computer Music Multidisciplinary Research (CMMR 2023), pp.30-41, November 2023.
+- date: "2023-07"
+  authors: Ryota Mibayashi, Masaki Ueta, Takafumi Kawahara, Naoaki Matsumoto, Takuma Yoshimura, Kenro Aihara, Noriko Kando, Yoshiyuki Shoji, Yuta Nakajima, Takehiro Yamamoto, Yusuke Yamamoto, Hiroaki Ohshima
+  title: 'MinpakuBERT: A Language Model for Understanding Cultural Properties in Museum'
+  venue: 2022 12th International Congress on Advanced Applied Informatics (IIAI-AAI), pp. 13-18, July 2023.
+- date: "2023-04"
+  authors: Yuki Yanagida, Makoto P. Kato, Yuka Kawada, Takehiro Yamamoto, Hiroaki Ohshima, Sumio Fujita
+  title: What Web Search Behaviors Lead to Online Purchase Satisfaction?
+  venue: Proceedings of the 15th ACM Web Science Conference 2023 (WebSci 2023), pp.324-334, April 2023.
+- date: "2021-09"
+  authors: Yoshiyuki Shoji, Kenro Aihara, Noriko Kando, Yuta Nakashima, Hiroaki Ohshima, Shio Takidaira, Masaki Ueta, Takehiro Yamamoto, Yusuke Yamamoto
+  title: 'Museum Experience into a Souvenir: Generating Memorable Postcards from Guide Device Behavior Log'
+  venue: Proceedings of the 2021 ACM/IEEE Joint Conference on Digital Libraries (JCDL 2021), pp.120-129, September 2021.
+- date: "2021-08"
+  authors: Bowen Wang, Liangzhi Li, Yuta Nakashima, Takehiro Yamamoto, Hiroaki Ohshima, Yoshiyuki Shoji, Kenro Aihara, Noriko Kando
+  title: Image Retrieval by Hierarchy-aware Deep Hashing Based on Multi-task Learning
+  venue: Proceedings of the 2021 International Conference on Multimedia Retrieval (ICMR 2021), pp.486-490, August 2021.
+- date: "2021-07"
+  authors: Soichiro Hamajima, Takehiro Yamamoto and Hiroaki Ohshima
+  title: Investigating Users' Query Formulations in Consumer Health Search
+  venue: Proceedings of the 10th International Congress on Advanced Applied Informatics (IIAI-AAI 2021), July 2021.
+- date: "2020-10"
+  authors: Makoto P. Kato, Akiomi Nishida, Tomohiro Manabe, Sumio Fujita and Takehiro Yamamoto
+  title: What Rankers Can be Statistically Distinguished in Multileaved Comparisons?
+  venue: Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020), pp.2081-2084, October 2020.
+- date: "2020-08"
+  authors: Yusuke Yamamoto and Takehiro Yamamoto
+  title: 'Personalization Finder: A Search Interface for Identifying and Self-controlling Web Search Personalization'
+  venue: Proceedings of the 20th ACM/IEEE on Joint Conference on Digital Libraries (JCDL 2020), pp. 37-46, August 2020.
+  award: The Vannevar Bush Best Paper Award
+- date: "2020-07"
+  authors: Suppanut Pothirattanachaikul, Takehiro Yamamoto, Yusuke Yamamoto and Masatoshi Yoshikawa
+  title: Analyzing the Effects of "People also ask" on Search Behaviors and Beliefs
+  venue: Proceedings of the 31st ACM Conference on Hypertext and Social Media (HT 2020), pp.101-110, July 2020.
+- date: "2020-04"
+  authors: Makoto P. Kato, Wiradee Imrattanatrai, Takehiro Yamamoto, Hiroaki Ohshima, Katsumi Tanaka
+  title: Context-guided Learning to Rank Entities
+  venue: Proceedings of the 42nd European Conference on IR Research (ECIR 2020), pp.83-96, April 2020.
+- date: "2019-12"
+  authors: Rabin Maharjan, Koichi Shiraishi, Takehiro Yamamoto, Yusuke Yamamoto, Hiroaki Ohshima
+  title: Development of IoT Monitoring Device and Prediction of Daily Life Behavior
+  venue: Proceedings of the 21st International Conference on Information Integration and Web-based Applications & Services (iiWAS 2019), pp.584-588, December 2019.
+- date: "2019-11"
+  authors: Suppanut Pothirattanachaikul, Takehiro Yamamoto, Yusuke Yamamoto and Masatoshi Yoshikawa
+  title: Analyzing the Effects of Document's Opinion and Credibility on Search Behaviors and Belief Dynamics
+  venue: |-
+    Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM 2019), pp.1653-1662, November 2019.
+    [\[preprint\]](/papers/suppanutCIKM2019analyzing.pdf)
+- date: "2019"
+  authors: Makoto P. Kato, Akiomi Nishida, Tomohiro Manabe, Sumio Fujita, Takehiro Yamamoto
+  title: Final Report of the NTCIR-14 OpenLiveQ-2 Task
+  venue: NTCIR, pp.45-56, 2019.
+- date: "2018-10"
+  authors: Takehiro Yamamoto, Yusuke Yamamoto and Sumio Fujita
+  title: Exploring People's Attitudes and Behaviors Toward Careful Information Seeking in Web Search
+  venue: |-
+    Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM 2018), pp.963-972, October 2018.
+    [\[preprint\]](/papers/yamamotoCIKM2018explore.pdf)
+- date: "2018-10"
+  authors: Makoto P. Kato, Tomohiro Manabe, Akiomi Nishida, Sumio Fujita, and Takehiro Yamamoto
+  title: 'Challenges of Multileaved Comparison in Practice: Lessons from NTCIR-13 OpenLiveQ Task'
+  venue: Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM 2018), pp.1515-1518, October 2018.
+- date: "2018-10"
+  authors: Ryoma Sato, Hisashi Kashima, and Takehiro Yamamoto
+  title: Short-term Precipitation Prediction with Skip-connected PredNet
+  venue: Proceedings of the 27th International Conference on Artificial Neural Networks (ICANN 2018), pp.373-382, October 2018.
+- date: "2018-05"
+  authors: Yusuke Yamamoto, Takehiro Yamamoto, Hiroaki Ohshima, and Kawakami Hiroshi
+  title: Web Access Literacy Scale to Evaluate How Critically Users Can Browse and Search for Web Information
+  venue: Proceedings of the 10th ACM Conference on Web Science (WebSci 2018), pp.97-106, May 2018.
+- date: "2018-03"
+  authors: Yusuke Yamamoto and Takehiro Yamamoto
+  title: Query Priming for Promoting Critical Thinking in Web Search
+  venue: Proceedings of the 3rd ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2018), pp.12-21, March 2018.
+- date: "2017-11"
+  authors: Shinryo Uchida, Takehiro Yamamoto, Makoto P. Kato, Hiroaki Ohshima, and Katsumi Tanaka
+  title: Entity Ranking by Learning and Inferring Pairwise Preferences from User Reviews
+  venue: Proceedings of the 13th Asia Information Retrieval Societies (AIRS 2017), pp.141-153, November 2017.
+- date: "2017-08"
+  authors: Tomohiro Manabe, Akiomi Nishida, Makoto P. Kato, Takehiro Yamamoto, and Sumio Fujita
+  title: A Comparative Live Evaluation of Multileaving Methods on a Commercial cQA Search
+  venue: Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), pp.949-952, August 2017.
+- date: "2017-08"
+  authors: Suppanut Pothirattanachaikul, Takehiro Yamamoto, Sumio Fujita, Akira Tajima and Katsumi Tanaka
+  title: Mining Alternative Actions from Community Q\&A Corpus for Task-Oriented Web Search
+  venue: Proceedings of the 2017 IEEE/WIC/ACM International Conference on Web Intelligence (WI 2017), pp.607-614, August 2017.
+- date: "2017-08"
+  authors: Daisuke Kataoka, Makoto P. Kato, Takehiro Yamamoto, Hiroaki Ohshima, Katsumi Tanaka
+  title: Context-aware Relevance Feedback over SNS Graph Data
+  venue: Proceedings of the 2017 IEEE/WIC/ACM International Conference on Web Intelligence (WI 2017), pp.823-830, August 2017.
+- date: "2016-10"
+  authors: Zebang Chen, Takehiro Yamamoto, and Katsumi Tanaka
+  title: Query Suggestion for Struggling Search by Struggling Flow Graph
+  venue: Proceedings of the 2016 IEEE/WIC/ACM International Conference on Web Intelligence (WI 2016), pp.224-231, October 2016. [\[preprint\]](/papers/chenWI2016struggling.pdf)
+- date: "2016-07"
+  authors: Kazutoshi Umemoto, Takehiro Yamamoto and Katsumi Tanaka
+  title: 'ScentBar: A Query Suggestion Interface Visualizing the Amount of Missed Relevant Information for Intrinsically Diverse Search'
+  venue: Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016), pp.405-414, July 2016.
+- date: "2016-06"
+  authors: Makoto P. Kato, Virgil Pavlu, Tetsuya Sakai, Takehiro Yamamoto and Hajime Morita
+  title: 'Two-layered Summaries for Mobile Search: Does the Evaluation Measure Reflect User Preferences?'
+  venue: Proceedings of the Seventh International Workshop on Evaluating Information Access (EVIA 2016), pp.29-32, June 2016.
+- date: "2016-04"
+  authors: Kazutoshi Umemoto, Takehiro Yamamoto and Katsumi Tanaka
+  title: How do Users Handle Inconsistent Information? The Effect of Search Expertise
+  venue: Proceedings of the 31st ACM/SIGAPP Symposium on Applied Computing (SAC 2016), pp.1066-1071, April 2016.
+- date: "2015-12"
+  authors: Jun-Li Lu, Makoto P. Kato, Takehiro Yamamoto, Katsumi Tanaka
+  title: Entity Identification on Microblogs by CRF Model with Adaptive Dependency
+  venue: Proceedings of the 2015 IEEE/WIC/ACM Web Intelligence Conference (WI 2015), pp.333-340, December 2015.
+  award: Best Student Paper Award
+- date: "2014-07"
+  authors: Makoto P. Kato, Takehiro Yamamoto, Hiroaki Ohshima, Katsumi Tanaka
+  title: Investigating Users’ Query Formulations for Cognitive Search Intents
+  venue: Proceedings of the 37th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2014), pp.567-576, July 2014.
+- date: "2014-06"
+  authors: Shuhei Shogen, Takehiro Yamamoto, Katsumi Tanaka
+  title: A Query Suggestion Interface with Features of Queries and Search Results
+  venue: Proceedings of the 15th International Conference on Web-Age Information Management (WAIM 2014), to appear, June 2014.
+- date: "2014-04"
+  authors: Makoto P. Kato, Takehiro Yamamoto, Hiroaki Ohshima, Katsumi Tanaka
+  title: 'Cognitive Search Intents Hidden Behind Queries: A User Study on Query Formulations'
+  venue: Proceedings of the 23rd International World Wide Web Conference (WWW 2014), pp. 313–314, April 2014.
+- date: "2014"
+  authors: Eunggyo Kim, Takehiro Yamamoto, Katsumi Tanaka
+  title: Computing Tag-Diversity for Social Image Search
+  venue: Proceedings of the 16th International Conference on Asia-Pacific Digital Libraries (ICADL 2014), pp. 328-335, 2014.
+- date: "2013-07"
+  authors: Takehiro Yamamoto, Satoshi Nakamura
+  title: Leveraging Viewer Comments for Mood Classification of Music Video Clips
+  venue: |-
+    Proceedings of the 36th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2013), pp. 797-800, July 2013.
+    [\[preprint\]](/papers/yamamotoSIGIR2013leverage.pdf)
+- date: "2013-07"
+  authors: Makoto P. Kato, Tetsuya Sakai, Takehiro Yamamoto, Mayu Iwata
+  title: 'Report from the NTCIR-10 1CLICK-2 Japanese Subtask: Baselines, Upperbounds and Evaluation Robustness'
+  venue: Proceedings of the 36th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2013), pp. 753-756, July 2013.
+- date: "2013-07"
+  authors: Matthew Ekstrand-Abueg, Virgil Pavlu, Makoto P. Kato, Tetsuya Sakai, Takehiro Yamamoto, Mayu Iwata
+  title: Semi-Automatic Nugget Extraction for Japanese One Click Access Evaluation
+  venue: Proceedings of the 36th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2013), pp. 749-752, July 2013.
+- date: "2013-07"
+  authors: Tetsuya Sakai, Zhicheng Dou, Takehiro Yamamoto, Yiqun Liu, Min Zhang, Makoto P. Kato, Ruihua Song, Mayu Iwata
+  title: 'Summary of the NTCIR-10 INTENT-2 Task: Subtopic Mining and Search Result Diversification'
+  venue: Proceedings of the 36th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2013), pp. 761-764, July 2013.
+- date: "2013-03"
+  authors: Kazutoshi Umemoto, Satoshi Nakamura, Takehiro Yamamoto and Katsumi Tanaka
+  title: Predicting Query Reformulation Type from User Behavior
+  venue: Proceedings of the 28th ACM Symposium On Applied Computing (SAC 2013), pp. 85-94, March 2013.
+- date: "2012-10"
+  authors: Takehiro Yamamoto, Tetsuya Sakai, Mayu Iwata, Yu Chen, Ji-Rong Wen and Katsumi Tanaka
+  title: 'The Wisdom of Advertisers: Mining Subgoals via Query Clustering'
+  venue: |-
+    Proceedings of the 21st ACM Conference on Information and Knowledge Management (CIKM 2012), pp.505-514, October 2012.
+    [\[preprint\]](/papers/yamamotoCIKM2012wisdom.pdf)
+- date: "2012-08"
+  authors: Mayu Iwata, Tetsuya Sakai, Takehiro Yamamoto, Yu Chen, Ji-Rong Wen and Shojiro Nishio
+  title: 'AspecTiles: Tile-based Visualization of Diversified Web Search Results'
+  venue: Proceedings of the 35th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2012), pp. 85-94, August 2012.
+- date: "2012-05"
+  authors: Kazutoshi Umemoto, Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: Search Intent Estimation from User’s Eye Movements for Supporting Information Seeking
+  venue: Proceedings of the 11th International Working Conference on Advanced Visual Interfaces (AVI 2012), pp. 349-356, May, 2012.
+- date: "2011-10"
+  authors: Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: Extracting Adjective Facets from Community Q\&A Corpus
+  venue: Proceedings of the 20th ACM Conference on Information and Knowledge Management (CIKM 2011), pp.2021-2024, Oct, 2011 (Poster paper). \[PDF\]
+- date: "2011-10"
+  authors: Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: 'RerankEverything: a reranking interface for exploring search results'
+  venue: Proceedings of the 20th ACM Conference on Information and Knowledge Management (CIKM 2011), pp.1913-1916, Oct, 2011 (Poster paper).
+- date: "2010-08"
+  authors: Kosetsu Tsukuda, Takehiro Yamamoto, Satoshi Nakamura, and Katsumi Tanaka
+  title: 'Plus One or Minus One: A Method to Browse from an Object to Another Object by Adding or Deleting an Element'
+  venue: Proceedings of the 21st International Conference on Database and Expert Systems Applications (DEXA 2010), pp.258-266, Aug, 2010.
+- date: "2010-04"
+  authors: Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: 'RerankEverything: a reranking interface for browsing search results'
+  venue: Proceedings of the 19th International Conference on World Wide Web (WWW2010), pp.1209-1210, April 2010.
+- date: "2010-01"
+  authors: Naoto Asahi, Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: Discovering Intermediate Entities from Two Examples by Using Web Search Engine Indices
+  venue: Proceedings of the 4th International Conference on Ubiquitous Information Management and Communication (ICUIMC 2010), Jan 2010.
+- date: "2009-11"
+  authors: Naoto Asahi, Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: Finding Intermediate Entity between Two Examples on the Web
+  venue: 11th ACM International Workshop on Web Information and Data Management (WIDM 2009), Hong Kong, pp.83-86, Nov. 2009.
+- date: "2009-10"
+  authors: Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: TermCloud for Enhancing Web Search
+  venue: Proceedings of the 10th international conference on Web Information Systems Engineering (WISE 2009) ,pp. 159-166,Poznan, Poland, Oct. 2009.
+- date: "2009-09"
+  authors: Takehiro Yamamoto, Satoshi Nakamura and Katsumi Tanaka
+  title: Reranking and Classifying Search Results Exhaustively Based on Edit-and-Propagate Operations
+  venue: Proceedings of the 20th International Conference on Database and Expert Systems Applications (DEXA 2009), pp. 855-862, Linz, Austria, Sep. 2009.
+- date: "2008-09"
+  authors: Satoshi Nakamura, Takehiro Yamamoto and Katsumi Tanaka
+  title: SyncRerank:Reranking Multi Search Results Based on Vertical and Horizontal Propagation of User Intention
+  venue: Proceedings of the 9th international conference on Web Information Systems Engineering (WISE 2008), pp.125-135, Auckland, New Zealand, (Sep. 2008).
+- date: "2007-11"
+  authors: Satoshi Nakamura, Takehiro Yamamoto, Katsumi Tanaka
+  title: 'Toward Editable Web Browser: Edit-and-Propagate Operation for Web Browsing'
+  venue: Proceedings of the 9th ACM International Workshop on Web Information and Data Management (WIDM 2007), pp.73-80, Lisbon, Portugal (Nov. 2007).
+- date: "2007-09"
+  authors: Takehiro Yamamoto, Satoshi Nakamura, and Katsumi Tanaka
+  title: 'Rerank-By-Example: Efficient Browsing of Web Search Results'
+  venue: Proceedings of the 18th International Conference on Database and Expert Systems Applications (DEXA 2007) pp. 801-810, Sep. 2007.

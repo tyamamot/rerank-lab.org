@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="content">
+  <header class="page-head">
+    {{ partial "crumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ $pager := .Paginate .Pages.ByDate.Reverse }}
+  {{ range $pager.Pages }}
+  <section class="post">
+    <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></p>
+    <div class="post-body">{{ .Content }}</div>
+  </section>
+  {{ end }}
+  {{ if gt $pager.TotalPages 1 }}
+  <nav class="pager">
+    {{ with $pager.Prev }}<a class="prev" href="{{ .URL }}">{{ i18n "newer" }}</a>{{ end }}
+    <span class="pages">
+    {{ range $pager.Pagers }}
+      {{ if eq . $pager }}<span class="cur">{{ .PageNumber }}</span>{{ else }}<a href="{{ .URL }}">{{ .PageNumber }}</a>{{ end }}
+    {{ end }}
+    </span>
+    {{ with $pager.Next }}<a class="next" href="{{ .URL }}">{{ i18n "older" }}</a>{{ end }}
+  </nav>
+  {{ end }}
+</article>
+{{ end }}

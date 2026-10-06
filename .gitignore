@@ -1,0 +1,9 @@
+# Hugo の出力（GitHub Actions がビルドするのでコミットしない）
+public/
+resources/
+.hugo_build.lock
+
+# macOS / Python
+.DS_Store
+__pycache__/
+*.pyc

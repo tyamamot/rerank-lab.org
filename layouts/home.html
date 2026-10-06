@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="profile">
+  <div class="profile-text">
+    <h1>{{ .Title }}</h1>
+    {{ range .Params.profile }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{ partial "links.html" . }}
+  </div>
+  {{ with .Params.photo }}<img class="profile-photo" src="{{ . }}" alt="{{ $.Title }}" width="150" height="200">{{ end }}
+</section>
+
+{{ $news := where site.RegularPages "Section" "posts" }}
+{{ with $news }}
+<section class="recent">
+  <h2>{{ i18n "recentNews" }}</h2>
+  {{ partial "newslist.html" (first site.Params.recentNews .ByDate.Reverse) }}
+  <p class="more"><a href="{{ (site.GetPage "/posts").RelPermalink }}">{{ i18n "allNews" }}</a></p>
+</section>
+{{ end }}
+
+<article class="content">{{ .Content }}</article>
+{{ end }}

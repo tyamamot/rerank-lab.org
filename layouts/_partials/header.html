@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-name" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    {{ partial "langswitch.html" . }}
+  </div>
+  <nav class="wrap nav">
+    {{ $cur := . }}
+    {{ range site.Menus.main }}
+      {{ $active := or ($cur.IsMenuCurrent "main" .) ($cur.HasMenuCurrent "main" .) (and .Page (eq .Page $cur)) (and .Page $cur.IsPage (eq $cur.Section "posts") (eq .Page.Section "posts") (not .Page.IsHome)) }}
+      <a href="{{ .URL }}"{{ if $active }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

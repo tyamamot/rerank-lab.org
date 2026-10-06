@@ -1,0 +1,423 @@
+/* ベーススタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 共通コンテナスタイル */
+.product-description {
+    max-width: 1240px; 
+    margin: 20px auto;
+    padding: 20px; 
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* 商品の説明セクション内の要素 */
+.product-description h1 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 15px;
+}
+
+/* --- 横並びレイアウトの主要部分 --- */
+.content-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1240px;
+    margin: 20px auto;
+    padding: 0 20px; 
+}
+
+/* スペックセクション */
+.product-specs {
+    flex: 0 0 350px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 0; 
+}
+
+/* レビューセクション */
+.review-section-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 0; 
+}
+
+.review-section {
+    padding: 0;
+}
+
+
+/* --- スペックの箇条書きスタイル --- */
+.spec-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.spec-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.spec-list li strong {
+    color: #555;
+    margin-right: 5px; 
+}
+
+
+/* --- レビュー・検索セクションの共通スタイル --- */
+.review-section h2, .search-container h3 {
+    color: #5a5a5a;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+/* --- 検索窓のスタイル --- */
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    margin-left: -5px; 
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+/* --- キーワードとレビューコンテンツのスタイル --- */
+/* サブキーワードリストのスタイル */
+#subkeyword-display ul {
+    list-style: none;
+    padding: 0;
+}
+#subkeyword-display ul li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+/* キーワードボタンのスタイル (サブキーワード) */
+#subkeyword-display button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #007bff;
+    background-color: #e9f5ff;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.9em;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#subkeyword-display button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* **ハイライトスタイル** */
+.sub-topic-keyword.highlighted {
+    background-color: #ffc107;
+    color: #333;
+    border: 1px solid #d39e00;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+/* レビューコンテンツ表示エリア */
+#review-content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    min-height: 50px; 
+    border-radius: 4px;
+    position: relative; /* 吹き出しの基準位置 */
+}
+
+/* --- 最終修正点: 類似商品ボタンのスタイルを強化し、クリック領域を確保 --- */
+/* (script3.jsからインラインスタイルを削除した前提で、こちらでサイズを確実に定義します) */
+.competitor-link {
+    /* クリック領域を確保する必須プロパティ */
+    display: inline-block; 
+    padding: 3px 8px; /* サイズ確保 */
+    margin: 0 5px; /* 要素間の隙間 */
+    font-size: 0.9em; /* 文字サイズ */
+    
+    /* デザインプロパティ (JSから移動) */
+    background: #f0f8ff;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    /* 念のため、他の要素との重なりを防ぐ */
+    position: relative;
+    z-index: 10;
+}
+
+.competitor-link:hover {
+    background-color: #007bff; 
+    color: white;
+}
+
+/* レビューコンテンツ内の他のスタイル... */
+#review-content h4 {
+    color: #d39e00;
+    margin-top: 0;
+}
+
+/* 区切り線 */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* --- ***** ポップアップ (吹き出し) 用のスタイル ***** --- */
+.modal {
+    display: none; /* JSによって block に切り替わる */
+    position: fixed; /* 画面全体を基準に固定 */
+    z-index: 1000; /* 最前面に表示 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 全画面を覆う */
+    height: 100%;
+    overflow: hidden;
+    background-color: transparent; 
+    pointer-events: none; /* 背景はクリックできない */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    
+    width: 300px; /* 吹き出しの幅を固定 */
+    
+    position: absolute; /* modal (fixed) を基準に配置 */
+    /* topとleftはJSで設定 */
+
+    pointer-events: auto; /* 吹き出し内部はクリック可能 */
+}
+/* ... その他のモーダル関連のスタイルはそのまま維持 ... */
+
+/* 吹き出しの三角（CSSで実現） */
+.modal-content::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #888; 
+    top: -16px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modal-content::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #fefefe; 
+    top: -14px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 吹き出し内の要素 */
+.modal-content h3 {
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+}
+.modal-content .spec-list {
+    margin-top: 5px;
+    border-top: none;
+    padding-top: 0;
+}
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10001; /* 🚨 モーダル全体 (1000) より非常に高く設定 */
+}
+
+/* スマートフォン表示への対応 */
+@media (max-width: 800px) {
+    .content-container {
+        flex-direction: column;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+    .product-description {
+        margin: 20px 10px;
+        max-width: 100%;
+    }
+    .product-specs, .review-section-wrapper {
+        flex: 1 1 auto; 
+        margin: 0 10px;
+    }
+    .modal-content {
+        position: fixed; /* スマホでは画面中央に固定する方が操作しやすい */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .modal {
+        pointer-events: auto; 
+        background-color: rgba(0,0,0,0.6); 
+    }
+    .modal-content::before, .modal-content::after {
+        display: none; 
+    }
+}
+
+/* --- 商品一覧ページ用スタイル (styles.cssに追加) --- */
+
+.product-grid-container {
+    max-width: 1240px; /* 他のセクションと横幅を揃える */
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.product-grid {
+    display: grid;
+    /* PC表示: 1行に4列（最小250px） */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; /* カード間の間隔 */
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-3px); /* ホバーで少し浮かせる */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card h3 {
+    margin-top: 0;
+    color: #007bff;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* 商品説明ヘッダーの幅をグリッドコンテナに合わせる */
+header.product-description {
+    max-width: 1240px; 
+}
+
+/* スマートフォンでのグリッド調整 */
+@media (max-width: 600px) {
+    .product-grid {
+        /* スマホ表示: 1列 */
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- 商品リンクのスタイル調整 (styles.cssに追加) --- */
+.product-link {
+    text-decoration: none; /* 下線を非表示にする */
+    color: inherit; /* テキストの色を親要素から継承する */
+    display: block; /* カード全体がリンクになるようにブロック要素にする */
+}
+
+/* ホバーエフェクトを <a> タグから div.product-card に移動 */
+.product-card {
+    /* ... (既存のスタイル) ... */
+    height: 100%; /* リンクがないカードと高さを揃える */
+}
+
+.product-link:hover .product-card {
+    transform: translateY(-3px); /* ホバーで少し浮かせる */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- 商品カード内のレイアウト調整 (styles.cssに追加/修正) --- */
+
+.product-card {
+    /* Flexbox を使って、画像スペースと説明を配置 */
+    display: flex; 
+    flex-direction: column; /* 縦並び */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    height: 100%; /* カードの高さを統一 */
+}
+
+.card-image-space {
+    width: 100%;
+    height: 150px; /* 画像が入るスペースのサイズを固定 */
+    background-color: #f0f0f0; /* 背景色でスペースを明示 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.card-content {
+    flex-grow: 1; /* 残りのスペースを使用 */
+}
+
+.product-card h3 {
+    /* ... 既存のスタイル ... */
+    margin-bottom: 5px;
+}
+
+/* ... 既存の product-grid, product-link のスタイルはそのまま ... */

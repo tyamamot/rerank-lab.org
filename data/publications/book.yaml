@@ -1,0 +1,16 @@
+# 著書等 / Book Chapter
+# 新しいものを上に追加。date は並べ替えに使う（YYYY-MM）。書き方は README.md を参照。
+
+- date: "2020-05"
+  authors: Kazutoshi Umemoto, Takehiro Yamamoto, and Katsumi Tanaka
+  title: Search Support Tools
+  venue: |-
+    Understanding and Improving Information Search - A Cognitive Approach - (editors: Wai-Tat Fu and Herre van Oostendorp),
+    Human-Computer Interaction Series. Springer, May 2020.
+  ja:
+    prefix: （チャプターを分担執筆）
+- date: "2011-04"
+  prefix: （共訳）
+  authors: Marti A. Hearst (著)，田中克己 角谷和俊（監訳）
+  title: 情報検索のためのユーザインタフェース
+  venue: 共立出版，2011年4月出版．

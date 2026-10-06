@@ -1,0 +1,15 @@
+# 報道（日本語ページのみ）
+# 新しいものを上に追加。date は並べ替えに使う（YYYY-MM）。書き方は README.md を参照。
+
+- date: "2020-02"
+  text: 西日本新聞 2020年2月23日 7面， AIのある未来へ「阪神大震災25年 神戸新聞記事分析」
+- date: "2020-01"
+  text: 神戸新聞 2020年1月17日 18・19面， 語りかける25年の「ことば」過去から未来へ
+- date: "2009-11"
+  text: 日経パソコン 2009年11月23日号, 知る人ぞ知るWeb裏メニュー案内, pp. 117.
+- date: "2009-07"
+  text: 日系ネットナビ [検索結果を効率よく絞り込む](http://netplus.nikkei.co.jp/netnavi/life/lif090722.html)
+- date: "2009-06"
+  text: CNET Japan [Yahoo JAPANの公式実験場–「Yahoo\!ラボ」が公開](http://japan.cnet.com/news/media/story/0,2000056023,20394670,00.htm)
+- date: "2009"
+  text: Internet Watch [ヤフー、実験的サービスの公開サイト「Yahoo\!ラボ」を開設](http://internet.watch.impress.co.jp/cda/news/2009/06/10/23736.html)

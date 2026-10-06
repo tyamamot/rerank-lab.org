@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40FB10P 詳細とレビューページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="product-description">
+        <h1>シンプルで高画質！40FB10P フルHDテレビ</h1> 
+        <p>
+            このテレビは、<strong>40インチのフルHD解像度</strong>と<strong>直下型LEDバックライト</strong>を採用したシンプルなモデルです。使いやすさと視認性を重視しており、寝室や個室に最適です。外付けHDDによる録画にも対応しています。
+        </p> 
+        <!-- <div class="price">価格: ¥49,800 (税込)</div>  -->
+    </header>
+
+    <hr>
+
+    <div class="content-container">
+
+        <section class="product-specs">
+            <h2>商品スペック</h2>
+            <ul class="spec-list">
+                <li><strong>画面サイズ</strong>: 40 V型(インチ)</li>
+                <li><strong>画素数</strong>: 1920x1080</li>
+                <li><strong>パネル種類</strong>: VAパネル</li>
+                <li><strong>HDR方式</strong>: None</li>
+                <li><strong>映像処理エンジン</strong>: None</li>
+                <li><strong>バックライト</strong>: 直下型LEDバックライト</li>
+                <li><strong>量子ドット</strong>: None</li>
+                <li><strong>倍速機能</strong>: None</li>
+                <li><strong>BS 8K</strong>: None</li>
+                <li><strong>BS 4K/110度CS 4K</strong>: None</li>
+                <li><strong>録画機能</strong>: 外付けHDD</li>
+                <li><strong>ドライブ内蔵</strong>: None</li>
+                <li><strong>自動録画機能</strong>: None</li>
+                <li><strong>2番組同時録画</strong>: None</li>
+                <li><strong>早見再生</strong>: None</li>
+                <li><strong>スマートスピーカー連携</strong>: None</li>
+                <li><strong>回転式スタンド</strong>: None</li>
+                <li><strong>HDMI端子</strong>: 2端子 ARC対応</li>
+                <li><strong>リモコン(音声操作)</strong>: None</li>
+                <li><strong>スピーカー数</strong>: 2チャンネル</li>
+                <li><strong>幅x高さx奥行</strong>: 906x568x215 mm</li>
+                <li><strong>重量</strong>: 6.7 kg</li>
+            </ul>
+        </section>
+
+        <div class="review-section-wrapper">
+            <main class="review-section">
+                <h2>お客様の声</h2>
+
+                <div class="search-container">
+                    <h3>レビューをキーワードで探す</h3>
+                    
+                    <hr>                
+                    <div id="keyword-buttons-container" class="keyword-buttons-container">
+                        <p>キーワードを選択してください：</p>
+                        </div>
+                </div>
+
+                <hr>
+
+                <div id="subkeyword-display"></div>
+                <div id="review-content" class="review-content"></div>
+                
+                <hr>
+                <div class="reviews-list" style="display: none;"></div>
+            </main>
+        </div>
+    </div>
+    
+    <script src="script3_tv2_p.js"></script>
+    
+    <div id="specModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modalTitle">類似製品スペック</h3>
+            <ul id="modalSpecList" class="spec-list">
+                </ul>
+        </div>
+    </div>
+</body>
+</html>

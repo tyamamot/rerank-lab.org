@@ -1,0 +1,13 @@
+{{/* 翻訳があればその翻訳へ、なければ相手言語のトップへ */}}
+<div class="lang">
+{{ range site.Home.AllTranslations }}
+  {{ if eq .Language.Lang site.Language.Lang }}
+    <span class="cur">{{ .Language.Label }}</span>
+  {{ else }}
+    {{ $target := . }}{{ $missing := true }}
+    {{ range $.Translations }}{{ if eq .Language.Lang $target.Language.Lang }}{{ $target = . }}{{ $missing = false }}{{ end }}{{ end }}
+    {{ if $.IsHome }}{{ $missing = false }}{{ end }}
+    <a href="{{ $target.RelPermalink }}" hreflang="{{ .Language.Lang }}"{{ if $missing }} class="missing" title="{{ i18n "noTranslation" }}"{{ end }}>{{ .Language.Label }}</a>
+  {{ end }}
+{{ end }}
+</div>

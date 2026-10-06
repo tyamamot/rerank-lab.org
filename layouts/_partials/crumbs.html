@@ -1,0 +1,4 @@
+<nav class="crumbs" aria-label="breadcrumb">
+  <a href="{{ site.Home.RelPermalink }}">{{ i18n "home" }}</a>
+  {{ if and .IsPage (eq .Section "posts") }}<span>›</span><a href="{{ (site.GetPage "/posts").RelPermalink }}">{{ (site.GetPage "/posts").Title }}</a>{{ end }}
+</nav>

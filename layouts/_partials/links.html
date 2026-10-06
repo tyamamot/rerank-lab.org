@@ -1,0 +1,5 @@
+{{/* params.profileLinks のボタン。homeOnly = true のものはトップページだけに出す */}}
+{{ $isHome := .IsHome }}
+<ul class="links">
+{{ range site.Params.profileLinks }}{{ if or $isHome (not .homeOnly) }}<li><a href="{{ .url }}">{{ .name }}</a></li>{{ end }}{{ end }}
+</ul>

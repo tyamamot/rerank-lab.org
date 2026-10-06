@@ -1,0 +1,205 @@
+# 学術論文誌（英語のものは英語ページの Papers / Journals にも出る）
+# 新しいものを上に追加。date は並べ替えに使う（YYYY-MM）。書き方は README.md を参照。
+
+- date: "2026-07"
+  authors: 三林亮太, 山本岳洋, 大島裕明
+  title: モーラの類似性とトークンの生成確率を考慮した単語辞書検索に依存しない日本語ライム生成
+  venue: 情報処理学会論文誌：データベース (TOD110), Vol.19, No.3, pp.1-15, 2026年7月.
+- date: "2026-04"
+  authors: 佐々木泰河, 山本岳洋, 大島裕明, 藤田澄男
+  title: モデルマージによるドメイン特化検索モデルの構築
+  venue: 情報処理学会論文誌：データベース (TOD109), Vol.19, No.2, pp.1-12, 2026年4月.
+- date: "2026-03"
+  authors: 藤井真梨乃, 山本岳洋, 湯本高行
+  title: 類似商品のレビューを用いた評価情報補完
+  venue: 日本データベース学会和文論文誌, Vol.24-J, No.11, pp.1-7, 2026年3月.
+- date: "2026-01"
+  authors: 飛岡憲, 山本岳洋, 大島裕明
+  title: 音声対話型検索における応答の長さとタスク複雑性が情報獲得と検索行動に与える影響
+  venue: 情報処理学会論文誌：データベース (TOD108), Vo.19, No.1, pp.146-158, 2026年1月.
+- date: "2025-08"
+  authors: Huu-Long Pham, Ryota Mibayashi, Takehiro Yamamoto, Makoto P. Kato, Yusuke Yamamoto, Yoshiyuki Shoji, and Hiroaki Ohshima
+  title: 'Pre-trained BERT Model Retrieval: Inference-Based No-Learning Approach using k-Nearest Neighbour Algorithm'
+  venue: IEICE Transactions on Information and Systems Special Section on Data Engineering and Information Management, Vol.E108-D, No.8, pp.872-882, August 2025.
+- date: "2025-07"
+  authors: 飛岡憲, 山本岳洋, 大島裕明
+  title: 音声対話型検索における多様な情報獲得を促すための観点推薦タイミングに関する研究
+  venue: 情報処理学会論文誌：データベース (TOD106), Vol.18, No.3, pp.8-19, 2025年7月.
+- date: "2025-05"
+  authors: 三林亮太, 佃洸摂, 渡邉 研斗, 中野倫靖, 後藤真孝, 山本岳洋, 大島裕明
+  title: ラップバトルにおけるアンサーの類型化およびアンサーの有無と表現の自動分類
+  venue: 電子情報通信学会和文論文誌D データ工学と情報マネジメント特集, Vol.J108-D, No.5, pp.206-219, 2025年5月.
+- date: "2025-05"
+  authors: 沈辰夫, 莊司慶行, 山本岳洋, 大原剛三, 田中克己
+  title: 生成的言語モデルによるレビュー文のキャッチフレーズ文体への変換
+  venue: 電子情報通信学会 和文論文誌(D) データ工学と情報マネジメント特集, Vol.J108-D, No.5, pp.332-343, 2025年5月.
+- date: "2025-03"
+  authors: 河田友香, 山本岳洋, 大島裕明, 藤田澄男
+  title: 商品属性とレビューの対応関係学習に基づく言語モデル
+  venue: 日本データベース学会データドリブンスタディーズ, Vol.3, No.6, pp.1-8, 2025年3月.
+- date: "2025-01"
+  authors: 三林亮太, 相原健郎, 神門典子, 莊司慶行, 山本岳洋, 山本祐輔, 大島裕明
+  title: みんぱくBERT：博物館における展示物の解説文を考慮した追加学習済みBERTモデル
+  venue: 情報処理学会論文誌：データベース (TOD104), Vol.18, No.1, pp.14-23, 2025年1月.
+- date: "2024-04"
+  authors: 三林亮太, 山本 岳洋, 佃洸摂, 渡邉研斗, 中野倫靖, 後藤真孝, 大島裕明
+  title: ラップバトルにおける逆向き生成によるライムを含む返答バース生成
+  venue: 情報処理学会論文誌：データベース (TOD101), Vol.17, No.2, pp.28-39, 2024年4月.
+- date: "2023-03"
+  authors: 柳田雄輝, 加藤誠, 河田友香, 山本岳洋, 大島裕明, 藤田澄男
+  title: 検索行動に基づく購買満足度の関係分析
+  venue: 日本データベース学会データドリブンスタディーズ, Vol.1, No. 3, 2023年3月.
+- date: "2023-03"
+  authors: 坂根和光, 三林亮太, 川原敬史, 山本岳洋, 澤田祥一, 高階勇人, 大島裕明
+  title: BERTを用いた場所の説明文に対する位置特定容易性の推定
+  venue: 日本データベース学会データドリブンスタディーズ, Vol.1, No. 6, 2023年3月.
+- date: "2022-05"
+  authors: Tomoya Hashiguchi, Takehiro Yamamoto, Sumio Fujita, Hiroaki Ohshima
+  title: Toward Generating Robot-Robot Natural Counseling Dialogue
+  venue: IEICE Transactions on Information and Systems, Vol.105, No. 5, pp. 928-935, May 2022.
+- date: "2022-02"
+  authors: 莊司慶行, 相原健郎, 大島裕明, 神門典子, 白石晃一, 中島悠太, 山本岳洋, 山本祐輔
+  title: 提示型検索モデルに基づくミュージアム電子ガイドとその利用ログを用いた事前学習・事後学習支援
+  venue: 情報処理学会論文誌, Vol.63, No.2, pp.364-377, 2022年2月.
+- date: "2021-01"
+  authors: 中田祐誠, 村本直樹, 山本岳洋, 藤田澄男, 大島裕明
+  title: ウェブ検索ログからのカメラのオンライン購買行動予測
+  venue: 人工知能学会論文誌, Vol.36, No.1, WII-C, pp.1-10, 2021年1月.
+- date: "2021-01"
+  authors: 橋口友哉, 山本岳洋, 藤田澄男, 大島裕明
+  title: CQAコンテンツからの状況が類似する悩みの検索
+  venue: 人工知能学会論文誌, Vol.36, No.1, WII-B, pp.1-13, 2021年1月.
+- date: "2020-04"
+  authors: 山本岳洋, 山本祐輔, 藤田澄男
+  title: 信頼できる情報獲得に対する心がけとウェブ検索行動の分析
+  venue: '情報処理学会論文誌: データベース (TOD85), Vol.13, No.2, pp.19-33, 2020年4月.'
+- date: "2020-04"
+  authors: Jun-Li Lu, Makoto P. Kato, Takehiro Yamamoto, Katsumi Tanaka
+  title: Searching for Microblogs Referring to Events by Deep Dynamic Query Strategies
+  venue: Journal of Information Processing, Vo.28, pp. 320-332, April 2020.
+- date: "2019-01"
+  authors: 山本祐輔, 山本岳洋
+  title: 批判的なウェブ検索を促進するクエリプライミング
+  venue: '情報処理学会論文誌: データベース (TOD80), Vol.12, No.1, pp.38-52, 2019年1月.'
+  award: WebDB Forum 2019 最優秀論文賞
+- date: "2019-01"
+  authors: 山本祐輔, 山本岳洋, 大島裕明, 川上浩司
+  title: ウェブアクセスリテラシー尺度の開発
+  venue: '情報処理学会論文誌: データベース (TOD80), Vol.12, No.1, pp.24-37, 2019年1月.'
+- date: "2018-05"
+  authors: Suppanut Pothirattanachaikul, Takehiro Yamamoto, Sumio Fujita, Akira Tajima, Katsumi Tanaka and Masatoshi Yoshikawa
+  title: Mining Alternative Actions from Community Q\&A Corpus
+  venue: Journal of Information Processing, Vol. 26, pp. 427-428, May 2018.
+  award: WebDB Forum 2018 論文賞 runners-up， 学生奨励賞
+  en:
+    award: WebDB Forum 2018 Best Paper Award runners-up
+- date: "2018-03"
+  authors: 大野直紀, 土屋駿貴, 中村聡史, 山本岳洋
+  title: 独立した音楽と映像に対する印象評価と音楽動画の印象の関係性に関する研究
+  venue: 情報処理学会論文誌 Vol.59, No.3, pp.929-940, 2018年3月.
+- date: "2017-07"
+  authors: Jun-Li Lu, Makoto P. Kato, Takehiro Yamamoto and Katsumi Tanaka
+  title: Event Identification for Explicit and Implicit References on Microblogs
+  venue: Journal of Information Processing, Vol.25, pp.505-513, July 2017.
+- date: "2017-01"
+  authors: 梅本和俊，山本岳洋，田中克己
+  title: 網羅性指向タスクにおける未閲覧情報量の提示
+  venue: 人工知能学会論文誌, Vol.32, No.1, WII-G, pp.1-12, 2017年1月.
+- date: "2017-01"
+  authors: 福地大助，山本岳洋，田中克己
+  title: 動詞クエリの語間の関係性に基づくクエリマイニング
+  venue: 人工知能学会論文誌, Vol.32, No.1, WII-J, pp.1-15, 2017年1月.
+- date: "2017"
+  authors: 片岡大祐, 加藤誠, 山本岳洋, 大島裕明, 田中克己
+  title: SNSグラフデータにおける文脈を考慮した適合フィードバック検索
+  venue: 日本データベース学会和文論文誌, Vol.16-J, No.11, 2017年.
+- date: "2016-09"
+  authors: Jun-Li Lu, Makoto P. Kato, Takehiro Yamamoto, Katsumi Tanaka
+  title: Entity Identification on Microblogs by CRF Model with Adaptive Dependency
+  venue: IEICE Transactions on Information and Systems, Vol.E99-D, No.9, pp.2295-2305, September 2016.
+- date: "2016-03"
+  authors: 山本岳洋，山本光穂，田中克己
+  title: 役割に基づく協調検索における検索行動分析
+  venue: 日本データベース学会和文論文誌, Vol. 14, No.14, 2016年3月.
+- date: "2016-03"
+  authors: 内田臣了, 山本岳洋, 加藤誠, 大島裕明, 田中克己
+  title: 経験的属性によるオブジェクト検索
+  venue: 日本データベース学会和文論文誌, Vol. 14, No.7, 2016年3月.
+- date: "2014-12"
+  authors: 梅本和俊，山本岳洋，田中克己
+  title: 検索専門性と事前知識に着目した検索行動とタスク満足度の関係性分析
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース（TOD64）,
+    Vol.7, No.4, pp. 1–16, 2014年12月.
+- date: "2013-06"
+  authors: 山本岳洋，中村聡史
+  title: 視聴者の時刻同期コメントを用いた楽曲動画の印象分類
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース（TOD58）,
+    Vol.6, No.3, pp.61-72, 2013年6月.
+- date: "2013-06"
+  authors: 中村聡史，山本岳洋，後藤真孝．濱崎 雅弘
+  title: 視聴者反応と音響特徴量に基づくサムネイル動画の生成手法
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース（TOD58）,
+    Vol.6, No.3, pp.148-158, 2013年6月.
+- date: "2013-06"
+  authors: 梅本和俊，中村聡史，山本岳洋，田中克己
+  title: Web検索時の行動情報を用いたクエリ修正タイプの予測
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース（TOD58）,
+    Vol.6, No.3, pp.132-147, 2013年6月.
+- date: "2013-06"
+  authors: 梅本和俊，山本岳洋，中村聡史，田中克己
+  title: 視線情報からの注目語抽出に基づく検索意図のリアルタイム推定
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース（TOD58）,
+    Vol.6, No.3, pp.120-131, 2013年6月.
+- date: "2011-12"
+  authors: 佃洸摂，中村聡史，山本岳洋，田中克己
+  title: 映像に付与されたコメントを用いた登場人物が注目されるシーンの推定
+  venue: 情報処理学会論文誌「情報爆発」特集号, Vol.52, No.12, pp.3471-3482, 2011年12月.
+- date: "2011-12"
+  authors: 旭直人，山本岳洋，中村聡史，田中克己
+  title: 比較文集約に基づくエンティティ間の順序関係推定による補間エンティティの発見
+  venue: 情報処理学会論文誌「情報爆発」特集号, Vol.52, No.12, pp.3527–3541, 2011年12月.
+- date: "2011-07"
+  authors: 佃洸摂，中村聡史，山本岳洋，田中克己
+  title: レシピ検索のためのレシピの構造とその安定度を考慮した追加・削除可能な食材の推薦
+  venue: 電子情報通信学会和文論文誌A 料理を取り巻く情報メディア技術特集号, Vol. J94-A, No.7, pp.476-487, 2011年7月
+- date: "2011-06"
+  authors: 山本岳洋，中村聡史，田中克己
+  title: Q\&Aコンテンツからの観点抽出に基づくウェブ検索支援
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース,
+    Vol.4, No.2（TOD50）, pp.74-87, 2011年6月.
+- date: "2011-06"
+  authors: 山本岳洋，中村聡史，田中克己
+  title: Q\&Aコンテンツからの観点抽出に基づくウェブ検索支援
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース,
+    Vol.4, No.2（TOD50）, pp.74-87, 2011年6月.
+- date: "2011-06"
+  authors: 梅本和俊，山本岳洋，中村聡史，田中克己
+  title: ユーザの視線を利用した検索意図推定とそれに基づく情報探索支援
+  venue: 日本データベース学会論文誌, Vol.10, No.1, pp.61-66, 2011年6月.
+- date: "2010-12"
+  authors: 山本岳洋，中村聡史，田中克己
+  title: RerankEverything：ランキング結果閲覧のための 柔軟な再ランキングインタフェース
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース,
+    Vol.3, No.4（TOD48）, pp.48-64, 2010年12月.
+- date: "2009-03"
+  authors: 山本祐輔, 山本岳洋, 中村聡史, 田中克己
+  title: 関連画像集合内における典型度と特殊度を用いた画像の信憑性分析
+  venue: 日本データベース学会論文誌 Vol.7, No.4, pp.25-30, 2009年3月.
+- date: "2008-03"
+  authors: 山本岳洋，中村聡史，田中克己
+  title: Rerank-By-Example：編集操作の意図伝播によるウェブ検索結果のリランキング
+  venue: |-
+    情報処理学会論文誌（トランザクション）データベース,
+    Vol.49, No.SIG7 (TOD37), pp.16-28, 2008年3月.
+- date: "2007-09"
+  authors: 山本岳洋，中村聡史，田中克己
+  title: Rerank-By-Example：編集操作に基づく検索結果の網羅的閲覧
+  venue: 日本データベース学会 Letters, Vol.6, No.2, pp.57-60, 2007年9月.

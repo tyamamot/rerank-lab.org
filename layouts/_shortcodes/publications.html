@@ -1,0 +1,38 @@
+{{/*
+  業績リスト {{< publications >}}。data/publications/*.yaml から言語ごとに自動生成する。
+  ・日本語ページ: すべて表示（lang: en のものを除く）
+  ・英語ページ: タイトルと掲載先に日本語を含まないもの、または lang: en のものだけ表示
+  見出しと、どの種類(type)をまとめて表示するかは下の $sections で決める。
+  各見出しの中は date の新しい順。
+*/}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $sections := dict
+  "ja" (slice
+    (dict "title" "著書等" "types" (slice "book"))
+    (dict "title" "学術論文誌" "types" (slice "journal"))
+    (dict "title" "査読付き国際会議論文" "types" (slice "conference"))
+    (dict "title" "ワークショップ/国内学会" "types" (slice "workshop"))
+    (dict "title" "報道" "types" (slice "media"))
+    (dict "title" "解説記事" "types" (slice "article"))
+    (dict "title" "トーク" "types" (slice "talk")))
+  "en" (slice
+    (dict "title" "Book Chapter" "types" (slice "book"))
+    (dict "title" "Papers / Journals" "types" (slice "journal" "conference"))
+    (dict "title" "Workshops/Others" "types" (slice "workshop")))
+-}}
+{{- range $sec := index $sections $lang }}
+  {{- $items := slice }}
+  {{- range $t := $sec.types }}{{ range index hugo.Data.publications $t }}
+    {{- $isJa := findRE `[\p{Han}\p{Hiragana}\p{Katakana}]` (printf "%s%s%s" (.title | default "") (.venue | default "") (.text | default "")) 1 }}
+    {{- $show := cond (eq $lang "ja") (ne .lang "en") (or (eq .lang "en") (and (not .lang) (not $isJa))) }}
+    {{- if $show }}{{ $items = $items | append . }}{{ end }}
+  {{- end }}{{ end }}
+  {{- with $items }}
+<h3>{{ $sec.title }}</h3>
+<ol>
+    {{- range sort . "date" "desc" }}
+  <li>{{ partial "pubitem.html" (dict "e" . "lang" $lang) }}</li>
+    {{- end }}
+</ol>
+  {{- end }}
+{{- end }}

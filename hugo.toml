@@ -1,0 +1,92 @@
+baseURL = "https://rerank-lab.org/"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false   # 日本語は / 、英語は /en/
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[pagination]
+  pagerSize = 5             # 記事一覧の1ページあたりの件数
+
+[frontmatter]
+  date = [":filename", ":default"]   # 記事のファイル名「YYYY-MM-DD-名前」から日付とURLの名前(slug)を取る
+
+[permalinks.page]
+  posts = "/posts/:year/:slug/"   # 記事のURL: /posts/2026/sigir-ap-2026/
+
+[markup.goldmark.renderer]
+  unsafe = true             # Markdown中にHTMLを書いても表示できるようにする
+[markup.goldmark.extensions.extras.mark]
+  enable = true             # ==受賞名== → 受賞の強調表示
+
+[languages.ja]
+  label = "日本語"
+  locale = "ja-JP"
+  weight = 1
+  title = "山本 岳洋 | Takehiro Yamamoto"
+  [languages.ja.params]
+    description = "兵庫県立大学 山本岳洋の個人ページ。情報検索・情報アクセスデザインの研究。"
+  [[languages.ja.params.sideLinks]]
+    name = "山本研究室"
+    url = "https://yamamotolab.net/"
+  [[languages.ja.params.sideLinks]]
+    name = "兵庫県立大学 大学院情報科学研究科"
+    url = "https://u-hyogo-gsis.org/"
+  [[languages.ja.params.sideLinks]]
+    name = "兵庫県立大学 社会情報科学部"
+    url = "https://www.u-hyogo.ac.jp/sis/"
+  [[languages.ja.menus.main]]
+    name = "ホーム"
+    pageRef = "/"
+    weight = 10
+  [[languages.ja.menus.main]]
+    name = "記事"
+    pageRef = "/posts"
+    weight = 15
+
+[languages.en]
+  label = "English"
+  locale = "en-US"
+  weight = 2
+  title = "Takehiro Yamamoto"
+  [languages.en.params]
+    description = "Personal website of Takehiro Yamamoto, University of Hyogo. Information retrieval and information access design."
+  [[languages.en.params.sideLinks]]
+    name = "Yamamoto Lab"
+    url = "https://yamamotolab.net/"
+  [[languages.en.params.sideLinks]]
+    name = "Graduate School of Information Science, University of Hyogo"
+    url = "https://u-hyogo-gsis.org/"
+  [[languages.en.params.sideLinks]]
+    name = "School of Social Information Science, University of Hyogo"
+    url = "https://www.u-hyogo.ac.jp/sis/"
+  [[languages.en.menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[languages.en.menus.main]]
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 15
+
+[params]
+  design = "sidebar"        # カード＋右サイドバー（assets/css/design-sidebar.css）
+  author = "Takehiro Yamamoto"
+  selfNames = ["Takehiro Yamamoto", "山本岳洋", "山本 岳洋", "T. Yamamoto"]   # 業績で下線を引く自分の名前
+  recentNews = 7            # サイドバーに出す最近の記事の数
+  [[params.profileLinks]]
+    name = "DBLP"
+    url = "https://dblp.org/pid/38/4395.html"
+  [[params.profileLinks]]
+    name = "Google Scholar"
+    url = "https://scholar.google.co.jp/citations?user=8ZDsbX8AAAAJ"
+  [[params.profileLinks]]
+    name = "researchmap"
+    url = "https://researchmap.jp/7000009215/"
+  [[params.profileLinks]]
+    name = "GitHub"
+    url = "https://github.com/tyamamot"
+    homeOnly = true         # トップページだけに表示
+  [[params.profileLinks]]
+    name = "X"
+    url = "https://x.com/suripi"
+    homeOnly = true
