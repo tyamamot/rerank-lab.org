@@ -10,4 +10,4 @@ aliases: ["/post-800/", "/ja/post-800/"]   # 旧WordPressのURLからの転送
 
 ![](/images/takehiro_yamamoto.jpg)
 
-参考: https://x.com/ACMSIGIR\_AP/status/1998376549012341232/
+参考: <https://x.com/ACMSIGIR_AP/status/1998376549012341232/>

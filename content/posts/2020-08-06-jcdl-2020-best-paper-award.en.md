@@ -3,7 +3,7 @@ title: "The Vannevar Bush Best Paper Award @ JCDL2020"
 date: "2020-08-06T13:17:39+09:00"
 slug: "jcdl-2020-best-paper-award"
 wp_id: 501
-aliases: ["/en/post-501/"]   # 旧WordPressのURLからの転送
+aliases: ["/post-501/"]   # 旧WordPressのURLからの転送
 ---
 
 Our paper got the Vannevar Bush Best Paper Award at JCDL 2020\!
