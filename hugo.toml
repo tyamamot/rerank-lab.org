@@ -90,3 +90,6 @@ disableKinds = ["taxonomy", "term"]
     name = "X"
     url = "https://x.com/suripi"
     homeOnly = true
+
+[services.googleAnalytics]
+  ID = "G-8YVYGGTT3B"   # GA4 測定ID（個人サイト用プロパティ）
