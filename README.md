@@ -73,6 +73,7 @@ GitHub Pages ではサーバ側の 301 が使えないため、この方式（me
     award: Best Paper Award (EN表記)
 ```
 
+- 会議名は「DEIM 2027」「SIGIR 2027」のように名前と年の間に空白を入れる。研究室サイト（yamamotolab.net）の data/publications.yaml と項目の書式が同じなので、研究室の業績は項目をそのままコピペできる
 - 掲載先が2行以上なら `venue: |` の次の行から字下げして書く。リンクは Markdown（`[\[preprint\]](/papers/x.pdf)`）
 - タイトルのない項目（報道など）は `text:` に1行で書く
 - 見出しの名前や並びは `layouts/_shortcodes/publications.html` の `$sections`

@@ -16,7 +16,7 @@
 - date: "2026-01"
   authors: 飛岡憲, 山本岳洋, 大島裕明
   title: 音声対話型検索における応答の長さとタスク複雑性が情報獲得と検索行動に与える影響
-  venue: 情報処理学会論文誌：データベース (TOD108), Vo.19, No.1, pp.146-158, 2026年1月.
+  venue: 情報処理学会論文誌：データベース (TOD108), Vol.19, No.1, pp.146-158, 2026年1月.
 - date: "2025-08"
   authors: Huu-Long Pham, Ryota Mibayashi, Takehiro Yamamoto, Makoto P. Kato, Yusuke Yamamoto, Yoshiyuki Shoji, and Hiroaki Ohshima
   title: 'Pre-trained BERT Model Retrieval: Inference-Based No-Learning Approach using k-Nearest Neighbour Algorithm'
@@ -76,7 +76,7 @@
 - date: "2020-04"
   authors: Jun-Li Lu, Makoto P. Kato, Takehiro Yamamoto, Katsumi Tanaka
   title: Searching for Microblogs Referring to Events by Deep Dynamic Query Strategies
-  venue: Journal of Information Processing, Vo.28, pp. 320-332, April 2020.
+  venue: Journal of Information Processing, Vol.28, pp. 320-332, April 2020.
 - date: "2019-01"
   authors: 山本祐輔, 山本岳洋
   title: 批判的なウェブ検索を促進するクエリプライミング
